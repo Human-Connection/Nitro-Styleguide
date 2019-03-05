@@ -68,7 +68,7 @@
     "vue-template-compiler": "~2.6.7",
     "vuep": "git+https://github.com/visualjerk/vuep.git#fix-iframe-firefox",
     "webpack-bundle-analyzer": "~3.0.4",
-    "webpack-merge-and-include-globally": "~2.1.14"
+    "webpack-merge-and-include-globally": "~2.1.16"
   },
   "authors": [
     "appinteractive",
