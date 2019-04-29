@@ -21,7 +21,7 @@
     "vue": "^2.6.6"
   },
   "devDependencies": {
-    "@babel/core": "~7.2.2",
+    "@babel/core": "~7.4.4",
     "@babel/plugin-syntax-dynamic-import": "~7.2.0",
     "@babel/standalone": "~7.3.3",
     "@vue/cli-plugin-babel": "~3.4.0",
