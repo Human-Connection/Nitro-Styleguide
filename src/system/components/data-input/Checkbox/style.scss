@@ -1,0 +1,49 @@
+.ds-checkbox {
+  display: block;
+
+  &:not(:last-of-type) {
+    margin-bottom: 8px;
+  }
+}
+
+.ds-checkbox-input {
+  display: none;
+
+  &:focus + .ds-checkbox-label {
+    outline: 1px dotted $color-primary;
+    outline-offset: 2px;
+  }
+
+  &:checked + .ds-checkbox-label::before {
+    background-color: $color-primary;
+    border-color: $color-primary;
+  }
+
+  &:checked + .ds-checkbox-label::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 6px;
+    height: 10px;
+    width: 5px;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    transform: rotate(45deg);
+  }
+}
+
+.ds-checkbox-label {
+  position: relative;
+  cursor: pointer;
+
+  &::before {
+    content: '';
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    border-radius: 4px;
+    border: 1px solid $text-color-base;
+    margin-right: 4px;
+    vertical-align: text-top;
+  }
+}
