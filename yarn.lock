@@ -11222,10 +11222,10 @@ vue-click-outside@~1.0.7:
   resolved "https://registry.yarnpkg.com/vue-click-outside/-/vue-click-outside-1.0.7.tgz#cdd2b1605e3c4944784e1794eae4a12a0f700bd6"
   integrity sha1-zdKxYF48SUR4TheU6uShKg9wC9Y=
 
-vue-docgen-api@^3.20.0:
-  version "3.20.0"
-  resolved "https://registry.yarnpkg.com/vue-docgen-api/-/vue-docgen-api-3.20.0.tgz#9e6c1593bec61f2b36c1f7de293b01d233a17bba"
-  integrity sha512-DyWfys0JqMqT+ygV6rgkkimaTMQkXBQc4iBMtIYBjb9kPu2bblPB1PL/2NDaRRkPYJUsx0cL33v3N1NRNbdODA==
+vue-docgen-api@^3.22.0:
+  version "3.22.0"
+  resolved "https://registry.yarnpkg.com/vue-docgen-api/-/vue-docgen-api-3.22.0.tgz#4990d4753591716ca4ed39316345ddf7f0cea271"
+  integrity sha512-WvsqD0doiOQfvyT5Xw0LUNyoxKFeCyy6Znbho5Z4uhFSuZUpRtN56oLaRnEbMJm51kOMvisWmq8YWqaU9EFxpg==
   dependencies:
     "@babel/parser" "^7.2.3"
     "@babel/types" "^7.0.0"
