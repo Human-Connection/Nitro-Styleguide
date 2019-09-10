@@ -6,6 +6,10 @@ cache:
   directories:
     - node_module
 
+before_install:
+  - go get -u github.com/tcnksm/ghr # Travis CI deployment provider for github releases sucks
+  - ./deployment_condition.sh && echo "Deployment condition returned exit code 0"
+
 install:
   - yarn install --production=false --frozen-lockfile --non-interactive
   - yarn build
