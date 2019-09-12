@@ -51,7 +51,7 @@ export default {
     },
 
     /**
-     * Center content vertacally and horizontally
+     * Center content vertically and horizontally
      */
     centered: {
       type: Boolean,
@@ -79,7 +79,7 @@ export default {
             'text-align': 'center',
             flex: 1,
             'align-content': 'center',
-            'jusify-content': 'center'
+            'justify-content': 'center'
           }
         : {}
 
