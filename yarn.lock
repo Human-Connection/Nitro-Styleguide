@@ -11521,10 +11521,10 @@ webpack-log@^2.0.0:
     ansi-colors "^3.0.0"
     uuid "^3.3.2"
 
-webpack-merge-and-include-globally@~2.1.16:
-  version "2.1.16"
-  resolved "https://registry.yarnpkg.com/webpack-merge-and-include-globally/-/webpack-merge-and-include-globally-2.1.16.tgz#1c618e4e585c5ad811eca8d4df48375f0827aa3c"
-  integrity sha512-ZhPgMbQFB5bK1ZvtDJm75Lu2BHEm9I5iDbSa3WM4y/VHa0SlLMiBs4FiJzLeJWa9dXL5sVhws/0ebRSlPfqsvA==
+webpack-merge-and-include-globally@~2.1.20:
+  version "2.1.20"
+  resolved "https://registry.yarnpkg.com/webpack-merge-and-include-globally/-/webpack-merge-and-include-globally-2.1.20.tgz#70182c7a2e89609b24795ef64317e3cf3c693ca1"
+  integrity sha512-fhBttfyGucWD1Dwz6siFmvKPEbdLiX++b9v6r8kKx1Jngw+/AD85A4MMWIFxGyN8HuG0jZn1XdVuNDgn0ooRDg==
   dependencies:
     es6-promisify "^6.0.0"
     glob "^7.1.2"
