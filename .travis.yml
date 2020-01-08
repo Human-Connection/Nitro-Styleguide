@@ -12,6 +12,7 @@ install:
   - yarn build:lib
 
 before_deploy:
+  - go get -u github.com/tcnksm/ghr
   - rm -Rf ./node_modules .docs ./preview ./tests *.log*
   - rm -Rf ./src/system/icons/_all
   - rm -Rf ./src/system/tokens/_examples
@@ -27,5 +28,10 @@ deploy:
     skip_cleanup: true
     github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
     keep_history: true
+    on:
+      condition: ./deployment_condition.sh
+  - provider: script
+    skip_cleanup: true
+    script: ./github_release.sh
     on:
       condition: ./deployment_condition.sh
